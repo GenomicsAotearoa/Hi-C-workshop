@@ -18,7 +18,7 @@
 
 6.30pm: drinks and dinner at Good George brewery
 
-### Day 2 – Friday Feb 19th
+### Day 2 – Friday Feb 26th
 
 10-10.30am: Ivan Liachko (Phase Genomics) – via Zoom
 
