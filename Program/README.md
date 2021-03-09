@@ -1,6 +1,6 @@
-## Genomics Aotearoa Hi-C workshop  - February 18-19th Auckland
+## Genomics Aotearoa Hi-C workshop  - February 25-26th Auckland
 
-### Day 1 – Thursday Feb 18th 
+### Day 1 – Thursday Feb 25th 
 
 10-10.45am Welcome and introductions
 
@@ -16,22 +16,18 @@
 
 1.15-3pm: Hi-C data QC pipeline, AllHiC, Salsa2, Lachesis and Juicebox hands-on session by Shane and Chen.
 
-3-3.30pm: break
-
-3.30-5pm: Shiny app for scaffolding hands-on session led by Ali
-
 6.30pm: drinks and dinner at Good George brewery
 
 ### Day 2 – Friday Feb 19th
 
-9-90.30am: Ivan Liachko (Phase Genomics) – via Zoom
+10-10.30am: Ivan Liachko (Phase Genomics) – via Zoom
 
-9.30-10am: Justin O’Sullivan
+10.30-11am: Dovetail genomics – via Zoom by Cory Padilla & Chui Li
 
-10-10.30am: break
+11.00-12.30pm: Hi-C versus LD, hands-on session led by Chris Couldrey
 
-10.30-11am: Dovetail genomics – via Zoom
+12.30-1.15pm: Lunch
 
-11-12.30pm: Hi-C versus LD, hands-on session led by Chris
+1.15-1.45pm: Connecting genetic variation and phenotypes through spatial interactions by Justin O'Sullivan 
 
-12.30pm: Lunch
+1.45-3.15pm: A novel tool for genome scaffolding by Ali Saei
