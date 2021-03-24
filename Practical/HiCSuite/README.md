@@ -4,7 +4,7 @@ A novel tool for genome sacaffolding using Hi-C data
 
 	devtools::install_github("AliSaei/HiCSuite"
 							 ,ref="main"
-							 ,auth_token ="3552d123cb8b0d1c467e2020aa989790cce0a38c"
+							 ,auth_token ="2ac7d68b4592801121e13430bfc5d52934e15931"
 							 )
 
 2) run the following command to launch the application:
