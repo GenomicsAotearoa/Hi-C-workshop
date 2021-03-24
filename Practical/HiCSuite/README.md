@@ -2,10 +2,10 @@
 
 1) Install the package by running the following command in R studio.  Please make sure to have the package 'devtools' installed.
 
-	devtools::install_github("AliSaei/HiCSuite"
-							 ,ref="main"
-							 ,auth_token ="2ac7d68b4592801121e13430bfc5d52934e15931"
-							 )
+	devtools::install_github("AliSaei/HiCSuite"<br/>
+					,ref="main"<br/>
+					,auth_token ="b411e52f73634088c1b4448141f7bec15b1e5386"
+				)
 
 2) run the following command to launch the application:
 
