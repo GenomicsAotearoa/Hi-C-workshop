@@ -1,4 +1,4 @@
-A novel tool for genome sacaffolding using Hi-C data
+# A novel tool for genome sacaffolding using Hi-C data
 
 1) Install the package by running the following command in R studio.  Please make sure to have the package 'devtools' installed.
 
@@ -13,4 +13,4 @@ A novel tool for genome sacaffolding using Hi-C data
 
 
 ## Presenter
-ALi Saei
+Ali Saei
