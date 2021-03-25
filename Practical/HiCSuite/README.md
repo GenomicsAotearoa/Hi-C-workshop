@@ -4,7 +4,7 @@
 
 	devtools::install_github("AliSaei/HiCSuite"
                          ,ref="main"
-                         ,auth_token ="ecf5263ee8cd8c41359e3da45dc03db30ba18163")
+                         ,auth_token ="9b86c59e6ea1ee12997641024329819b97b04ffd")
 2) run the following command to launch the application:
 
 	HiCSuite::run_scaffoldR()
