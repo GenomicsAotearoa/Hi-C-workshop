@@ -4,4 +4,4 @@
 
 #### Post-Workshop Survey
 
-![Survey](https://otago.au1.qualtrics.com/jfe/form/SV_0Di6qg3NxQDAst0 "Survey")
+Link to survey - https://otago.au1.qualtrics.com/jfe/form/SV_0Di6qg3NxQDAst0
