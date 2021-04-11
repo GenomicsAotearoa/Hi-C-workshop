@@ -4,8 +4,8 @@
 This README describes a workflow of how to do Hi-C data quality control, anchoring contigs/scaffolds onto chromosome-level (or post-scaffolding using Hi-C data) and chimeric scaffold correction based on visualization.
 
 ## Demonstrators
-* Chen Wu (Plant and Food)
-* Shane Choi (Manaaki Whenua – Landcare Research)
+* Chen Wu (Plant and Food: chen.wu@plantandfood.co.nz)
+* Shane Choi (Manaaki Whenua – Landcare Research: scho249@aucklanduni.ac.nz)
 
 ## 1. Logging into Jupyter
 Click the link  https://jupyter.nesi.org.nz/hub/login and choose the options shown below:
@@ -98,6 +98,7 @@ The filtering statistics is shown below from the dataset we use in this tutorial
 
 ```hic_qc.py``` is written in Python 3. So, we need to load the appropriate module and run hic_qc.py on the mapped reads.
 ```
+ml load Python/3.8.2-gimkl-2020a
 pip install --upgrade scipy 
 python $software/hic_qc/hic_qc.py -b filtered_hic.bam -r -o hic_qc -n 42114971
 ```
@@ -136,9 +137,9 @@ Single RE example (used in this tutorial):
 ```
 python $software/SALSA/run_pipeline.py -b hic.bed -a $data/map/contig.fasta_nt -l $data/map/contig.fasta.fai -o test_SALSA -e GATC
 ```
-[NOTE: ```contig.fasta.fai``` is an index file, you can generate from ```samtools faidx contig.fasta```]
+[**NOTE**: ```contig.fasta.fai``` is an index file, you can generate from ```samtools faidx contig.fasta```]
 
-Multiple RE example:
+Multiple REs example:
 ```
 python $software/SALSA/run_pipeline.py -b hic.bed -a $data/map/contig.fasta_nt -l $data/map/contig.fasta.fai -o test_SALSA -e GATC,ATTC
 ```
@@ -148,8 +149,8 @@ python $software/SALSA/run_pipeline.py -b hic.bed -a $data/map/contig.fasta_nt -
 The unique feature of ALLHIC is that it can phase and then scaffold autopolyploid contigs into different chromosome-level haplotypes if you can provide allelic information/annotation (https://www.nature.com/articles/s41588-018-0237-2). It also has a workflow for scaffolding diploid assemblies, which we’ll use in this tutorial.
 
 Several parameters should be considered when you run ALLHIC:
-•	Provide a group of cluster (karyotype) using ```-k```
-•	Restriction enzyme using ```-e``` & ```--RE``` [NOTE: ALLHIC does not provide multi-RE setting at the moment]
+* Provide a group of cluster (karyotype) using ```-k```
+*	Restriction enzyme using ```-e``` & ```--RE``` [NOTE: ALLHIC does not provide multi-RE setting at the moment]
 
 **Step1**: ```partition``` separates all the contigs into clusters using average links:
 ```
